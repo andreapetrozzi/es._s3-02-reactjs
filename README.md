@@ -1,32 +1,32 @@
+### Description
 Job Search Engine
 
 You are tasked with improving an existing project, a remote job search engine.
-Today the task is to complete the project by inserting load indicators, error handling and redux-persist.
+The task is to complete the project by inserting load indicators, error handling and redux-persist.
 
-     
-TASKS: (continue from where you left off previously)
+TASKS:
 
 1. Insert new actions and cases into your reducers to manage a loading indicator
-            for asynchronous operations and possible errors, exactly as we did in class.
-            Take advantage of these properties of the store and insert a Spinner and an Alert in the components affected by loading and/or errors to inform the user of these status changes.
-         2. Install the redux-persist package (npm i redux-persist) and add it to your project with the appropriate configuration.
-            The aim is to make your application capable of not losing Store information after a browser refresh.
-         3. Keep the rest of the features intact.
+   for asynchronous operations and possible errors, exactly as we did in class.
+   Take advantage of these properties of the store and insert a Spinner and an Alert in the components affected by loading and/or 
+   errors to inform the user of these status changes.
+   
+2. Install the redux-persist package `npm i redux-persist` and add it to your project with the appropriate configuration.
+    The aim is to make your application capable of not losing Store information after a browser refresh.
+    .
+3. Keep the rest of the features intact. 
 
-[EXTRA]
-         Install "redux-persist-transform-encrypt",
-         written your copy of the Store in the localStorage and save the secretKey inside an .env file.
+Install `redux-persist-transform-encrypt`,
+written your copy of the Store in the localStorage and save the secretKey inside an .env file.
 
-
-
-// Terminal:
-   // npm i bootstrap@4.6.1
-   // npm i react-bootstrap@1.6.5
-   // npm i react-router-dom
-   // npm i @reduxjs/toolkit
-   // npm i react-redux
-   // npm i redux-persist
-   // npm install redux-persist-transform-encrypt
+### Terminal:
+- `npm i bootstrap@4.6.1`;
+- `npm i react-bootstrap@1.6.5`;
+- `npm i react-router-dom`;
+- `npm i @reduxjs/toolkit`;
+- `npm i react-redux`;
+- `npm i redux-persist`;
+- `npm install redux-persist-transform-encrypt`.
    
    
    
